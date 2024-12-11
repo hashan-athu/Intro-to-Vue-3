@@ -40,7 +40,7 @@ app.component("product-display", {
           Add to Cart
         </button>
 
-        <button class="button" :class="{ disabledButton: !inStock }" :disabled="!inStock" @click="remove-from-cart">Remove Item</button>
+        <button class="button" :class="{ disabledButton: !inStock }" :disabled="!inStock" @click="removeFromCart">Remove Item</button>
       </div>
     </div>
   </div>`,
